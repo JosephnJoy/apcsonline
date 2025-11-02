@@ -147,6 +147,7 @@ export default defineConfig({
   // 忽略死連結檢查（因為部分頁面尚未建立）
   ignoreDeadLinks: true,
   
-  outDir: '../dist',
+  // Cloudflare Pages 需要輸出到 docs/.vitepress/dist
+  // 所以使用預設的 .vitepress/dist 路徑
   base: '/'
 })
