@@ -1,0 +1,22 @@
+{
+  "name": "apcsonline",
+  "version": "1.0.0",
+  "description": "APCS Python Programming Exam Preparation Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "APCS",
+    "Python",
+    "Programming",
+    "Education"
+  ],
+  "author": "apcsonline.org",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}
